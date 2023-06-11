@@ -1,0 +1,11 @@
+syntax = "proto3";
+option go_package="/user";
+
+import "google/protobuf/timestamp.proto";
+
+message User {
+    uint64 id = 1;
+    string name = 2;
+    repeated uint32 used_auth_codes = 3;
+    google.protobuf.Timestamp last_time_active = 4;
+}
