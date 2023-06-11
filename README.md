@@ -41,6 +41,8 @@
 
 [Типы данных в PROTOBUF](https://protobuf.dev/programming-guides/proto3/#scalar)  
 
+Пример генерации кода из .proto файла и сравнение размеров сериализованных данных: [JSON and PB compare](https://github.com/zexy-swami/go_and_grpc/tree/main/code/json_and_pb_compare)
+
 ## gRPC
 
 **Что не так с HTTP:**
