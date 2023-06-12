@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package = "./service";
+
+import "google/protobuf/timestamp.proto";
+
+service AuthService {
+    rpc Authenticate(UserRequest) returns (ServiceResponse);
+}
+
+message UserRequest {
+    uint64 id = 1;
+    uint32 auth_code = 2;
+    google.protobuf.Timestamp request_time = 3;
+}
+
+message ServiceResponse {
+    bool status = 1;
+    string help_message = 2;
+}

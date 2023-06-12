@@ -58,3 +58,5 @@
 * Сжатие заголовков.
 
 [Сравнение скорости передачи контента в HTTP версиях 1.1 и 2](http://www.http2demo.io)  
+
+Пример запуска gRPC сервера и клиента на языке go: [gRPC example](https://github.com/zexy-swami/go_and_grpc/tree/main/code/grpc_example)
